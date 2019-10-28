@@ -9,7 +9,7 @@ tags:
 detection:
     selection:
         Image:
-            - "*\SoundRecorder.exe"
+            - '*\SoundRecorder.exe'
         CommandLine:
             - "* /FILE *"
     condition: selection
